@@ -22,5 +22,10 @@ router.get("/", sayActions.sayWelcome);
 import programAction from "./modules/program/programAction";
 
 router.get("/api/programs", programAction.browse);
+router.get("/api/programs/:id", programAction.read);
+
+import categoryActions from "./modules/category/categoryActions";
+router.get("/api/categories", categoryActions.browse);
+router.get("/api/categories/:id", categoryActions.read);
 
 export default router;
