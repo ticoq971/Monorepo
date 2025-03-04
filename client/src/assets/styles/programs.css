@@ -1,0 +1,11 @@
+.series {
+  margin-left: 20px;
+  width: 100%;
+
+  background-color: black;
+
+  img {
+    width: 240px;
+    height: 240px;
+  }
+}
